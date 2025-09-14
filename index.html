@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
 </head>
-<body>
+<body class="manrope-font">
     
+      <div class="parent-container flex flex-col md:flex-row justify-between  max-w-7xl px-6 py-6 mx-auto">
+        <div class="left-container max-w-lg text-center md:text-left">
+            <h1 class="text-4xl md:text-7xl font-bold leading-tight mb-5">It's good <br>
+                tea time at The <br> Tea House</h1>
+            <p class="text-lg text-gray-500 mb-5">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To
+                Your Taste
+                Buds.
+            </p>
+            <button
+                class="btn font-semibold text-center cursor-pointer rounded-xl w-[200px] h-[64px] p-5 bg-gradient-to-l from-red-500 to-[#FF8938] text-white text-[1.2rem] shadow-lg hover:scale-105 transition">Explore
+                More <span><i class="ri-arrow-right-up-line"></i></span></button>
+        </div>
+        <div class="right_container relative mt-12 md:mt-0 flex justify-center">
+            <img src="./images/banner.png" alt="banner">
+            <div
+                class=" flex items-center gap-4 w-3xs h-[100px]  bg-white rounded-lg shadow-lg absolute -bottom-8 md:bottom-0 left-1/2 md:left-22 -translate-1/2 md:translate-0">
+                <span class="text-5xl text-yellow-500"><i class="ri-star-line"></i></span>
+                <div class="ml-4">
+                    <p class="font-extrabold text-3xl">5.00</p>
+                    <p class="text-gray-500 text-base">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
